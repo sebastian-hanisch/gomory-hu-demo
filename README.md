@@ -1,6 +1,6 @@
 # Gomory-Hu-Baum – eine Engpass-Karte für alle Paare – Streamlit-Demo
 
-*(noch nicht deployed)*
+**[→ Demo live ausprobieren](https://sebastianhanisch-gomory-hu-demo.streamlit.app/)**
 
 Dritte Erweiterung (Stück 15, optional) der **Netzwerkfluss-Linie** der "Konzepte"-Reihe für die Website "Sebastian Hanisch – Operations Research und Machine Learning", nach [projektauswahl-demo](https://github.com/sebastian-hanisch/projektauswahl-demo) und [graph-cuts-demo](https://github.com/sebastian-hanisch/graph-cuts-demo):
 anders als die Fall-Demos im Portfolio (ein Anwendungsfall, mehrere Verfahren im Vergleich) zeigt diese Demo **ein** Verfahren – den **Gomory-Hu-Baum nach Gusfield** – an einem wachsenden Beispiel.
