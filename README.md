@@ -8,7 +8,7 @@ Wie viel muss man kappen, um zwei Standorte eines Netzes voneinander zu trennen?
 Gebaut wird er mit nur **n − 1 Flussberechnungen** statt einer je Paar (Gusfield 1990, nach Gomory und Hu 1961). In den Vorgängern war der minimale Schnitt erst der *Beweis* des maximalen Flusses, dann eine *Entscheidung* (Auswahl, Beschriftung); hier ist er die **Struktur** des Netzes.
 Vehikel: ein ungerichtetes Verbindungsnetz zwischen Standorten mit geplanten Regionen (kräftige innere, schwache äußere Verbindungen), dazu vier feste Lehrnetze (Hantel, Stern, Gitter 3 × 3, Einbahnkante). Den Fluss rechnet Boykov–Kolmogorov aus dem Vorgängerstück (Dinic und Edmonds-Karp wählbar).
 
-**Einordnung in die Reihe (die Kanten des Graphen):** Erweiterung E1 „der Schnitt als Modell“, drittes Stück: Nachfolger von graph-cuts-demo (dort war der Schnitt die beste Beschriftung, hier das Verzeichnis aller Schnitte). Nachbarn: die Zuverlässigkeit unter zufälligen Ausfällen in `random-spanning-tree-demo` (dort probabilistisch, hier die feste Kantenverbundenheit); die Cut-Set-Ungleichungen in `fixkosten-netzdesign-demo` (Trennung über Min-Cuts); die Klassen „mindestens k-fach verbunden“ als Cluster (Clustering-Linie). Bisher gebaut: die zwölf Stücke der Hauptlinie und alle drei der Erweiterung E1.
+**Einordnung in die Reihe (die Kanten des Graphen):** Erweiterung E1 „der Schnitt als Modell“, drittes Stück: Nachfolger von graph-cuts-demo (dort war der Schnitt die beste Beschriftung, hier das Verzeichnis aller Schnitte). Nachbarn: die Zuverlässigkeit unter zufälligen Ausfällen in `random-spanning-tree-demo` (dort probabilistisch, hier die feste Kantenverbundenheit); die Cut-Set-Ungleichungen in `fixkosten-netzdesign-demo` (Trennung über Min-Cuts); die Klassen „mindestens k-fach verbunden“ als Cluster (Clustering-Linie). Gebaut: die zwölf Stücke der Hauptlinie, alle drei der Erweiterung E1 sowie E4 (Frank-Wolfe, Gradient Projection) und E5 (Fluss über die Zeit).
 ```
 edmonds-karp-demo (Wurzel: Restgraph, Rückkanten, Max-Flow = Min-Cut)                  [gebaut]
   ├─ dinic-demo, push-relabel-demo, ssp-demo → … → slope-scaling-demo (Hauptlinie)      [gebaut]
@@ -108,3 +108,7 @@ venv/Scripts/python -m pytest tests/ -v
 ```
 
 Gebaut mit Streamlit, Plotly, NumPy und einem eigenen Flusskern (Boykov–Kolmogorov, Dinic, Edmonds-Karp); networkx nur für die Gegenprobe der Tests.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Netzwerkfluss: vom Max-Flow zum Netzdesign](https://sebastianhanisch.net/konzepte-netzwerkfluss.html).

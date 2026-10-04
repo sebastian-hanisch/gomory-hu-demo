@@ -323,7 +323,7 @@ st.markdown(
 | **Eine Ziehung** | Die Kapazitäten sind bekannt und fest; unter zufälligen Ausfällen (Zuverlässigkeit) ist die Frage eine andere (Demo „Zufällige Spannbäume“). |
 """
 )
-st.caption("Die Netzwerkfluss-Linie ist als Ganzes geplant: die zwölf Stücke der Hauptlinie (gebaut), dazu die Erweiterung E1: **Projektauswahl**, **Graph Cuts** und **Gomory-Hu-Baum** (dieses Stück, gebaut).")
+st.caption("Die Netzwerkfluss-Linie ist als Ganzes geplant: die zwölf Stücke der Hauptlinie (gebaut), dazu die Erweiterung E1: **Projektauswahl**, **Graph Cuts** und **Gomory-Hu-Baum** (dieses Stück, gebaut), E4 (Frank-Wolfe, Gradient Projection) und E5 (Fluss über die Zeit), ebenfalls gebaut.")
 
 st.markdown("---")
 
@@ -350,6 +350,6 @@ st.markdown("---")
 
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Netzwerkfluss: vom Max-Flow zum Netzdesign](https://sebastianhanisch.net/konzepte-netzwerkfluss.html)."
 )
