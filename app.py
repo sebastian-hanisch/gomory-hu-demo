@@ -323,7 +323,7 @@ st.markdown(
 | **Eine Ziehung** | Die Kapazitäten sind bekannt und fest; unter zufälligen Ausfällen (Zuverlässigkeit) ist die Frage eine andere (Demo „Zufällige Spannbäume“). |
 """
 )
-st.caption("Die Netzwerkfluss-Linie ist als Ganzes geplant: die zwölf Stücke der Hauptlinie (gebaut), dazu die Erweiterung E1: **Projektauswahl**, **Graph Cuts** und **Gomory-Hu-Baum** (dieses Stück, gebaut), E4 (Frank-Wolfe, Gradient Projection) und E5 (Fluss über die Zeit), ebenfalls gebaut.")
+st.caption("Die Netzwerkfluss-Linie ist als Ganzes geplant: die dreizehn Stücke der Hauptlinie (gebaut), dazu die Erweiterung E1: **Projektauswahl**, **Graph Cuts** und **Gomory-Hu-Baum** (dieses Stück, gebaut), E4 (Frank-Wolfe, Gradient Projection) und E5 (Fluss über die Zeit), ebenfalls gebaut.")
 
 st.markdown("---")
 
